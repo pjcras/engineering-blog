@@ -1,0 +1,45 @@
+---
+layout: page
+title: "Careers"
+description: "Help us change the world"
+header-img: "img/mon-woodlands.jpg"
+---
+<link rel="stylesheet" href="/css/styles.css">
+<link rel="stylesheet" href="/css/font-awesome.css">
+
+<div class='container-fluid'>
+    <div class='row'>
+        <div class='col-md-12'>
+            At Monsanto, you will work with other top level talent solving a wide range of complex and unique challenges
+            that have real-world impact. You can help feed, clothe and fuel a growing population through ground-breaking innovation. Ready to do your part?
+        </div>
+    </div>
+    <br/>
+
+    <div class='row'>
+        <div class='col-md-12'>
+            {% youtube nyAP1xmgur0 %}
+        </div>
+    </div>
+    <hr/>
+    <h1 style="text-align: center">Jobs</h1>
+
+    <div class='row'>
+        {% for job in site.data.jobs %}
+        <div class='col-md-6'>
+            <div class="panel panel-default">
+                <div class="panel-heading">{{job.title}}</div>
+                <div class="panel-body">
+                    <span style="font-size: 16px;">{{job.description}}</span>
+                </div>
+                <div class="panel-footer">
+                  <span style="font-size: 14px;">{{job.location}}</span>
+                  <span style="font-size: 14px;"><a href="https://monsanto.taleo.net/careersection/2/jobdetail.ftl?job={{job.id}}" class="label label-primary pull-right" target="_blank" title="Apply Now" style="margin-top: 5px;"> Apply Now </a></span>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+</div>
+
