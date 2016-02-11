@@ -32,4 +32,4 @@ software driving this company forward.
 
 To find out more about what we are working on, we invite you to
 [Discover Monsanto](http://discover.monsanto.com/) and be part of the
-conversation.
+conversation. You can also find exciting career opportunities by visiting our [Careers](/careers/) section.
